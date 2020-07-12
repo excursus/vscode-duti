@@ -6,6 +6,23 @@
     "engines": {
         "vscode": "^1.47.0"
     },
+    "icon": "images/duti-icon-512x512.png",
+    "publisher": "excursus",
+    "author": {
+        "name": "excursus"
+    },
+    "galleryBanner": {
+        "color": "#0AD5FC",
+        "theme": "dark"
+    },
+    "license": "MIT License",
+    "bugs": {
+        "url": "https://github.com/excursus/vscode-duti/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/excursus/vscode-duti"
+    },
     "categories": [
         "Language Packs"
     ],
