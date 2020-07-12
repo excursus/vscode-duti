@@ -1,0 +1,36 @@
+{
+    "scopeName": "source.duti",
+    "patterns": [
+        {
+            "name": "comment",
+            "match": "^\\s*#.*"
+        },
+        {
+            "name": "line-UTI",
+            "match": "^\\s*([^\\s]+)\\s+([^\\s]+)\\s+([^\\s]+)\\s*",
+            "captures": {
+                "1": {
+                    "name": "constant.numeric.app_id.duti"
+                },
+                "2": {
+                    "name": "string.UTI.duti"
+                },
+                "3": {
+                    "name": "entity.name.function.role.duti"
+                }
+            }
+        },
+        {
+            "name": "line-URL-scheme",
+            "match": "^\\s*([^\\s]+)\\s+([^\\s]+)\\s*",
+            "captures": {
+                "1": {
+                    "name": "app_id.duti"
+                },
+                "2": {
+                    "name": "keyword.URL-scheme.duti"
+                }
+            }
+        }
+    ]
+}
