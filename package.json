@@ -2,7 +2,7 @@
     "name": "duti-language",
     "displayName": "duti Config Syntax",
     "description": "Syntax highlighting for duti configuration files.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -13,7 +13,7 @@
     },
     "galleryBanner": {
         "color": "#0AD5FC",
-        "theme": "dark"
+        "theme": "light"
     },
     "license": "MIT License",
     "bugs": {
