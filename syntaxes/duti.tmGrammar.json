@@ -25,7 +25,7 @@
             "match": "^\\s*([^\\s]+)\\s+([^\\s]+)\\s*",
             "captures": {
                 "1": {
-                    "name": "app_id.duti"
+                    "name": "constant.numeric.app_id.duti"
                 },
                 "2": {
                     "name": "keyword.URL-scheme.duti"
